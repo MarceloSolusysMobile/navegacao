@@ -1,8 +1,8 @@
 class Animal {
   String? nome;
-  String? imgUrl;
+  List<String>? fotos;
   double? pesoMedio;
   String? habilidade;
 
-  Animal({this.nome, this.imgUrl, this.pesoMedio, this.habilidade});
+  Animal({this.nome, this.fotos, this.pesoMedio, this.habilidade});
 }

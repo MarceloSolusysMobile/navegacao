@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navegacao/pages/home.dart';
+import 'package:navegacao/pages/list_animais.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(title: 'Menu Inicial'),
+      home: const ListAnimais(),
     );
   }
 }
